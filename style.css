@@ -1,22 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Inter:wght@100;400&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Inter:wght@100;400;700;900&family=Montserrat:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-p {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     background-color: #111215;
 }
 
+main {
+    margin: 100px 120px;
+}
+
+.main-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.title-presentation {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #A1A1AA;
+}
+
+.presentation {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #A1A1AA;
+}
+
+.dispos {
+    display: flex;
+    padding: 0;
+}
+
+.localisation,
+.available {
+    display: flex;
+}
+
+i {
+    padding-right: 8px;
+    color: #A1A1AA;
+    position: relative;
+    top: 2px;
+}
+
+li {
+    padding-right: 100px;
+    list-style-type: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #A1A1AA;
+    ;
+}
+
 h1 {
-    font-size: 90px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 24px;
     color: #F5F5F7;
-    text-align: center;
 }
