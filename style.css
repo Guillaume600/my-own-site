@@ -9,6 +9,14 @@ main {
     margin: 100px 120px;
 }
 
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A1A1AA;
+}
+
 .main-logo {
     display: block;
     margin-left: auto;
@@ -50,6 +58,10 @@ i {
     top: 2px;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li {
     padding-right: 100px;
     list-style-type: none;
@@ -66,5 +78,69 @@ h1 {
     font-family: 'Inter';
     font-weight: 900;
     font-size: 24px;
+    color: #F5F5F7;
+    margin: 50px 0;
+}
+
+.top-bar {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    width: 1250px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    color: #F5F5F7;
+}
+
+.parties {
+    padding: 0;
+}
+
+.partie {
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.card {
+    width: 28%;
+    height: 250px;
+}
+
+.card>img {
+    width: 250px;
+    height: 160px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.card-container {
+    display: block;
+}
+
+.nouveau-projet {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    align-items: center;
+    margin: 16.6px 0;
+}
+
+.thumbnail {
+    margin-left: 5px;
+    padding: 5px 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-size: 12px;
     color: #F5F5F7;
 }
